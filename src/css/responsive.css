@@ -449,7 +449,7 @@
     }
 
     .score-icons #rotten-tomatoes-critics-icon {
-        margin-left: 10px;
+        margin-left: 40px;
     }
     
     .score-text #rotten-tomatoes-critics-score {
@@ -484,9 +484,10 @@
 
     .iframe-container .trailer-iframe1 {
         order: 4;
-        margin-right: 30px;
-        margin-left: -30px;
+        margin-left: -10px;
         margin-top: 30px;
+        width: 400px;
+        height: 200px;
     }
 
     .video-text-container #video-text2 {
@@ -495,9 +496,10 @@
 
     .iframe-container .trailer-iframe2 {
         order: 5;
-        margin-right: 30px;
         margin-left: -30px;
         margin-top: 20px;
+        width: 400px;
+        height: 200px;
     }
 
     .footer p {
