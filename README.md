@@ -19,12 +19,12 @@
   <a href="">
     <img src="https://github.com/juletopi/Projeto_Pagina_Cyberpunk-Edgerunners/assets/76459155/5aafdb7b-a0bd-4c67-9b79-93bb4767059c" alt="PaginaCyberpunkEdgerunners-pic" width="124px" title="Repositório da Página Cyberpunk Edgerunners">
   </a>
-  <h2 align="center">Página Cyberpunk Edgerunners 🤖</h2>
+  <h2 align="center">Página Cyberpunk Edgerunners ☢️</h2>
 </div>
 
 <div align="center">
 
-  <a href="">**Visualize a página web clicando aqui »**</a> \
+  <a href="https://juletopi.github.io/Projeto_Pagina_Cyberpunk-Edgerunners/">**Visualize a página web clicando aqui »**</a> \
     <sub>**"Use `ctrl + click` para abri-la numa nova janela!"**</sub>
 </div>
 
@@ -56,7 +56,7 @@
 <br>
 
 <div align="center">
-<a href="">View Demo</a> &#xa0; • &#xa0;
+<a href="https://juletopi.github.io/Projeto_Pagina_Cyberpunk-Edgerunners/">View Demo</a> &#xa0; • &#xa0;
 <a href="https://github.com/juletopi/Projeto_Pagina_Cyberpunk-Edgerunners/issues">Report Bug</a> &#xa0; • &#xa0;
 <a href="https://github.com/juletopi/Projeto_Pagina_Cyberpunk-Edgerunners/discussions">Request Feature</a>
 </div>
