@@ -1,0 +1,58 @@
+/* Estilização para a modal */
+.modal {
+	background-color: #1a1727c2;
+    backdrop-filter: blur(2px);
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+}
+
+/* Estilização para o conteúdo da modal */
+.modal-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	border-radius: 5px;
+	gap: 15px;
+}
+
+/* Estilização para o botão de fechar a modal */
+.close-modal {
+	font-family: Verdana;
+	background-color: #0f0e11;
+	color: #fff;
+	font-weight: bolder;
+	font-size: 20px;
+	width: 40px;
+    height: 40px;
+	border-radius: 50%;
+	text-align: center;
+	cursor: pointer;
+    line-height: 40px;
+    padding: 0;
+    box-sizing: border-box;
+    transition: text-shadow 0.3s ease;
+}
+
+.close-modal:hover {
+    color: #dacf3f;
+    text-shadow: 0 0 16px #dacf3f;
+}
+
+/* Estilização para o iframe dentro da modal */
+.modal iframe {
+	border-width: 0;
+	width: 65vw;
+	height: 75vh;
+}
+
+/* Estilização para a modal quando estiver aberta */
+.modal.open {
+	opacity: 1;
+	visibility: visible;
+}

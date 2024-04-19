@@ -1,0 +1,33 @@
+/* Animação da seta */
+@keyframes arrowAnimation {
+    from {
+        top: 0;
+    }
+    to {
+        top: 10px;
+    }
+}
+
+/* Animação de fade-in para baixo */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Animação de fade-in para cima */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(-35px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

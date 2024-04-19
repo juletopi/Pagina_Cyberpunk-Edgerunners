@@ -1,0 +1,13 @@
+/* Definição da fonte Cyberpunk-Regular */
+@font-face {
+    font-family: "Cyberpunk-Regular";
+    src: url("../fonts/Cyberpunk-Regular.ttf") format("woff2"),
+         url("../fonts/Cyberpunk-Regular.ttf") format("woff");
+}
+
+/* Definição da fonte Refinery25-Regular */
+@font-face {
+    font-family: "Refinery25-Regular";
+    src: url("../fonts/Refinery25-Regular.ttf") format("woff2"),
+         url("../fonts/Refinery25-Regular.ttf") format("woff");
+}

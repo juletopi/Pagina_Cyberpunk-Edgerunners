@@ -1,0 +1,808 @@
+/* Estilização básica do corpo do documento */
+body {
+    font-family: Refinery25-Regular;
+    color: #fff;
+    background-color: #322d47;
+    background-image: url('../images/mainBackgroundImage.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Estilização da sobreposição para efeitos visuais desejados na imagem de fundo */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.719);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* Estilização do título da página */
+.header-title img {
+    width: 100%;
+    height: auto;
+    max-width: 550px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 100px;
+    margin-bottom: -20px;
+    text-align: center;
+    line-height: 1.0;
+    opacity: 0;
+    animation: fadeInDown 2.0s forwards;
+}
+
+/* Estilização da linha abaixo do título */
+.header-title hr {
+    border: none;
+    border: 2px solid #dacf3f;
+    width: 30%;
+    margin: 50px auto;
+    margin-bottom: -5px;
+}
+
+/* Estilização dos subtítulo abaixo da linha abaixo do título*/
+.header-title h2 {
+    font-size: 28px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.651);
+    padding-top: 35px;
+    text-align: center;
+    line-height: 1.0;
+    line-height: 1.3,5;
+    opacity: 0;
+    animation: fadeInUp 2.5s forwards;
+}
+
+/* Estilização do a seção informativa abaixo do título principal */
+.more-info {
+    font-size: 23px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.651);
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* Estilização do a seção informativa abaixo do título 2 */
+.more-info2 {
+    font-size: 23px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.651);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: center;
+    line-height: 1.0;
+    line-height: 1.3,5;
+    opacity: 0;
+    animation: fadeInUp 2.5s forwards;
+}
+
+/* Estilização a seta animada abaixo da seção informativa */
+.arrow {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 15px solid #fff;
+    position: relative;
+    margin: 10px auto;
+    padding-bottom: -15px;
+    animation: arrowAnimation 1s infinite alternate;
+}
+
+/* Estilização dos títulos principais da página */
+.title2, .title3, .title4, .title5, .title6 {
+    text-align: center;
+    font-family: Cyberpunk-Regular;
+    font-size: 65px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    line-height: 0.7;
+    letter-spacing: -13px;
+    opacity: 0;
+    animation: fadeInDown 2.0s forwards;
+}
+
+/* Estilização específica do título 2 da página */
+.title2 {
+    line-height: 0.6;
+}
+
+/* Estilização específica do título 4 da página */
+.title4 {
+    letter-spacing: -7px;
+}
+
+/* Estilização específica do título 5 da página */
+.title6 {
+    letter-spacing: -5px;
+}
+
+/* Estilização da linha horizontal abaixo dos títulos principais da página */
+.hr, .hr2, .hr3, .hr4, .hr5 {
+    border: none;
+    border: 2px solid #dacf3f;
+    margin: 35px auto;
+    margin-bottom: 20px;
+}
+
+/* Estilização específica da linha horizontal 1 da página */
+.hr {
+    width: 30%;
+}
+
+/* Estilização específica da linha horizontal 2 da página */
+.hr2 {
+    width: 50%;
+}
+
+/* Estilização específica da linha horizontal 3 da página */
+.hr3 {
+    width: 50%;
+}
+
+/* Estilização específica da linha horizontal 4 da página */
+.hr4 {
+    width: 40%;
+}
+
+/* Estilização específica da linha horizontal 5 da página */
+.hr5 {
+    width: 40%;
+}
+
+/* Estilização das seções sobre as músicas */
+.music1, .music2 {
+    display: flex;
+    align-items: flex-start;
+    background-color: #191625dc;
+    color: #fff;
+    padding: 50px 0px;
+    margin-top: 15px;
+    opacity: 0;
+    animation: fadeInDown 1.5s forwards;
+}
+
+/* Estilização do contêiner do texto das seções sobre as músicas */
+.music1 .text-container, .music2 .text-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+/* Estilização dos títulos das seções sobre as músicas */
+.music1 h2, .music2 h2 {
+    color: #dacf3f;
+    font-size: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Estilização do subtítulo das seções sobre as músicas */
+.music1 sub, .music2 sub {
+    color: #dacf3f;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Estilização do parágrafo das seções sobre as músicas */
+.music1 p, .music2 p {
+    font-size: 23px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Estilização da imagem das seções sobre as músicas */
+.music1 img, .music2 img {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+/* Estilização da citação das seções sobre as músicas */
+.music1 cite, .music2 cite {
+    font-family: Verdana;
+    margin-top: 10px;
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+/* Estilização dos links de citação das seções sobre as músicas */
+.music1 a, .music2 a {
+    color: #dacf3f;
+    margin-top: 10px;
+}
+
+/*Estilização dos links de citação das seções sobre as músicas ao passar o mouse */
+.music1 a:hover, .music2 a:hover {
+    color: #00be3c;
+    text-decoration: underline;
+}
+
+/* Estilização dos ícones SVGs das seções sobre as músicas */
+.social-icons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+/* Estilização do preenchimento dos ícones SVGs das seções sobre as músicas ao passar o mouse */
+.music1 a:hover svg path, .music2 a:hover svg path {
+    fill: #dacf3f;
+    transition: fill 0.3s ease;
+}
+
+/* Estilização do container do botão das seções sobre as músicas */
+.button-container {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+
+/* Estilização dos botões transparente das seções sobre as músicas */
+.transparent-button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid #dacf3f;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+/* Estilização do botão transparente das seções sobre as músicas ao passar o mouse */
+.transparent-button:hover {
+    background-color: #dacf3f;
+    color: white;
+    border-color: #dacf3f;
+}
+
+/* Estilização da tabela e do título */
+.table-wrapper {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.651);
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    opacity: 0;
+    animation: fadeInDown 1.5s forwards;
+}
+
+/* Estilização dos títulos das colunas */
+table th {
+    background-color: #191625dc;
+    color: #fff;
+    font-size: 26px;
+    padding: 10px;
+    border-bottom: 4px solid #dacf3f;
+}
+
+/* Estilização das células da tabela */
+table td {
+    background-color: #19162563;
+    padding: 10px;
+    font-size: 23px;
+}
+
+/* Estilização dos links nas células da tabela */
+table td a {
+    color: #fff;
+}
+
+/* Estilização da tabela ao passar o mouse */
+table td:hover {
+    background-color: #191625dc;
+}
+
+/* Estilização dos links nas células da tabela ao passar o mouse */
+table td a:hover {
+    background-color: #191625dc;
+    text-decoration: underline;
+    color: #dacf3f;
+}
+
+/* Estilização geral da seção sobre os personagens */
+.characters {
+    text-align: center;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+}
+
+/* Estilização das imagens da seção sobre os personagens */
+.characters img {
+    max-width: 130px;
+}
+
+/* Estilização dos parágrafos da seção sobre os personagens */
+.characters p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* Estilização geral para os cards */
+.card {
+    background-color: #191625dc;
+    padding: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    animation: fadeInDown 1.5s forwards;
+}
+
+/* Estilização da imagem para os cards */
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Estilização do título para os cards */
+.card h2 {
+    font-size: 30px;
+    color: #dacf3f;
+    margin-top: 10px;
+}
+
+/* Estilização do parágrafo para os cards */
+.card p {
+    font-size: 23px;
+    margin-top: 5px;
+}
+
+/* Estilização da seção sobre o jogo */
+.about-game {
+    display: flex;
+    align-items: flex-start;
+    background-color: #191625dc;
+    color: #fff;
+    padding: 60px 0px;
+    margin-top: 15px;
+    opacity: 0;
+    animation: fadeInDown 1.5s forwards;
+}
+
+/* Estilização do contêiner do texto da seção sobre o jogo */
+.about-game .text-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+/* Estilização dos títulos da seção sobre o jogo */
+.about-game h2 {
+    color: #dacf3f;
+    font-size: 40px;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Estilização dos parágrafos da seção sobre o jogo */
+.about-game p {
+    font-size: 23px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Estilização da imagem da seção sobre o jogo */
+.about-game img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+/* Estilização do link no parágrafo da seção sobre o jogo */
+#official-site-link a {
+    color: #dacf3f;
+}
+
+/* Estilização do link no parágrafo da seção sobre o jogo ao passar o mouse */
+#official-site-link:hover a {
+    color: #00be3c;
+}
+
+/* Estilização específica do segundo título da seção sobre o jogo */
+.about-game #title2 {
+    font-size: 33px;
+    margin-top: 30px;
+}
+
+/* Estilização dos ícones SVGs da seção sobre o jogo */
+.game-platform-icons {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+/* Estilização específica do ícone SVG "platform-pc" na seção sobre o jogo */
+.game-platform-icons #platform-pc {
+    width: 100%;
+    height: auto;
+    max-width: 100px;
+    margin-left: -200px;
+    margin-right: 0;
+}
+
+/* Estilização específica do ícone SVG "platform-xboxseries" na seção sobre o jogo */
+.game-platform-icons #platform-xboxseries {
+    width: 100%;
+    height: auto;
+    max-width: 230px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Estilização específica do ícone SVG "platform-ps5" na seção sobre o jogo */
+.game-platform-icons #platform-ps5 {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Estilização específica do ícone SVG "platform-xboxone" na seção sobre o jogo */
+.game-platform-icons #platform-xboxone {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Estilização específica do ícone SVG "platform-ps4" na seção sobre o jogo */
+.game-platform-icons #platform-ps4 {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Estilização da seção sobre onde assistir o anime */
+.where-to-watch {
+    background-image: url('../images/DavidSandevistanBackgroundImage.png');
+    background-color: #191625dc;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    color: #fff;
+    padding: 60px 0px;
+    margin-top: 15px;
+    margin-bottom: 120px;
+    opacity: 0;
+    animation: fadeInDown 1.5s forwards;
+}
+
+/* Estilização da imagem da seção sobre onde assistir o anime */
+.where-to-watch img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+
+/* Estilização da imagem no conteiner do texto na seção sobre onde assistir o anime */
+.text-container img {
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+    max-width: 25px;
+    margin-left: 0px;
+}
+
+/* Estilização dos parágrafos da seção sobre onde assistir o anime */
+.where-to-watch p {
+    font-family: Verdana;
+    font-size: 16px;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 40px;
+}
+
+/* Estilização geral dos ícones das notas na seção sobre onde assistir o anime */
+.score-icons {
+    margin-top: 20px;
+}
+
+/* Estilização do ícone da crítica do "Rotten Tomatoes" na seção sobre onde assistir o anime */
+.score-icons #rotten-tomatoes-critics-icon {
+    width: 40px;
+    height: auto;
+    margin-left: 100px;
+}
+
+/* Estilização do ícone da audiência do "Rotten Tomatoes" na seção sobre onde assistir o anime */
+.score-icons #rotten-tomatoes-audience-icon {
+    width: 40px;
+    height: auto;
+    margin-left: 50px;
+}
+
+/* Estilização do ícone da pontuação do "IMDb" na seção sobre onde assistir o anime */
+.score-icons #imdb-icon {
+    width: 50px;
+    height: auto;
+    margin-left: 90px;
+}
+
+/* Estilização geral dos textos das notas na seção sobre onde assistir o anime */
+.score-text {
+    display: flex;
+    font-weight: bold;
+    cursor:default;
+}
+
+/* Estilização do texto da crítica do "Rotten Tomatoes" na seção sobre onde assistir o anime */
+.score-text #rotten-tomatoes-critics-score {
+    margin-top: -35px;
+    margin-left: 36px;
+}
+
+/* Estilização do texto da audiência do "Rotten Tomatoes" na seção sobre onde assistir o anime */
+.score-text #rotten-tomatoes-audience-score {
+    margin-top: -35px;
+    margin-left: -42px;
+}
+
+/* Estilização do texto da pontuação do "IMDb" na seção sobre onde assistir o anime */
+.score-icons #imdb-score {
+    margin-top: -35px;
+    margin-left: -5px;
+}
+
+/* Estilização do container dos vídeos-trailer na seção sobre onde assistir o anime */
+.trailer-container {
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+/* Estilização do texto do parágrafo de "onde assistir" na seção sobre onde assistir o anime */
+#where-to-watch-text {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.651);
+    font-family: "Refinery25-Regular";
+    font-size: 26px;
+    margin-right: 600px;
+}
+
+/* Estilização do link do parágrafo de "onde assistir" na seção sobre onde assistir o anime */
+#where-to-watch-link {
+    color: #dacf3f;
+    font-family: "Refinery25-Regular";
+    font-size: 23px;
+    margin-top: -25px;
+}
+
+/* Estilização do link no parágrafo de "onde assistir" na seção sobre onde assistir o anime ao passar o mouse */
+#where-to-watch-link:hover {
+    color: #00be3c;
+    text-decoration: underline;
+}
+
+/* Estilização específica dos textos 1 e 2 nos vídeos-trailer na seção sobre onde assistir o anime */
+.trailer-container #video-text1, 
+.trailer-container #video-text2 {
+    color: #dacf3f;
+    font-family: "Refinery25-Regular";
+    font-size: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    padding-top: 0;
+    display: inline-block;
+    border-left: 5px solid #dacf3f;
+    padding-left: 10px;
+}
+
+/* Estilização específica do texto 2 nos vídeos-trailer na seção sobre onde assistir o anime */
+.trailer-container #video-text2 {
+    margin-left: 215px;
+}
+
+/* Estilização específica dos iframe 1 e 2 do vídeo-trailer na seção sobre onde assistir o anime */
+.trailer-iframe1, 
+.trailer-iframe2 {
+    background-color: #0e0c14;
+    display: inline-block;
+}
+
+/* Estilização específica do iframe 2 do vídeo-trailer na seção sobre onde assistir o anime */
+.trailer-iframe1 {
+    margin-right: 30px;
+}
+
+/* Estilização para o botão de volta ao topo */
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0c0a11;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: default;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 9999;
+}
+
+/* Estilização para o botão de voltar ao topo quando estiver visível */
+#back-to-top.visible {
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* Estilização para o botão de voltar ao topo quando estiver visível ao passar o mouse */
+#back-to-top.visible:hover {
+    color: #dacf3f;
+    text-shadow: 0 0 16px #dacf3f;
+}
+
+/* Estilização para o texto do botão de voltar ao topo */
+#back-to-top .tooltip {
+    position: absolute;
+    background-color: #0c0a11;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+}
+
+/* Triângulo do balão de fala */
+#back-to-top .tooltip::after {
+    content: "";
+    position: absolute;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #0c0a11 transparent transparent transparent;
+    bottom: -1px;
+    top: 0%;
+    left: 118px;
+    transform: translateX(50%) rotate(-90deg);;
+}
+
+/* Estilização do texto do botão de voltar ao topo */
+.tooltip {
+    font-size: 18px;
+    position: absolute;
+    top: -5px;
+    left: -130px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+/* Estilização do texto do botão de voltar ao topo ao passar o mouse */
+#back-to-top:hover .tooltip {
+    opacity: 1;
+    color: #fff;
+    text-shadow: none;
+}
+
+/* Estilização do rodapé */
+.footer {
+    background-color: #191625;
+    color: #c5c5c5;
+    margin-top: 30px;
+}
+
+/* Estilização da imagem no rodapé */
+.footer img {
+    width: 100%;
+    height: auto;
+    max-width: 90px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-bottom: -10px;
+    text-align: center;
+    line-height: 1.0;
+}
+
+/* Estilização "frase especial" no rodapé */
+#ER-phrase {
+    font-family: Cyberpunk-Regular;
+    color: #06FB55;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    line-height: 0.9;
+    letter-spacing: -2px;
+}
+
+/* Estilização da linha horizontal no rodapé */
+.footer hr {
+    border: none;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #3f375fd3, transparent);
+}
+
+/* Estilização geral do texto no rodapé */
+.footer p {
+    color: #a59cc2;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Estilização do texto de copyright no rodapé */
+#copyright {
+    font-family: Verdana;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+/* Estilização do texto predescente aos links pessoais do autor do site no rodapé */
+#my-links {
+    font-family: Verdana;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Estilização dos ícones sociais pessoais do autor do site */
+.personal-social-icons {
+    margin-top: 10px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Estilização do preenchimento dos ícones sociais pessoais do autor do site ao passar o mouse */
+.personal-social-icons a:hover svg path {
+    fill: #66617a;
+    transition: fill 0.3s ease;
+}
+
+/* Estilização do texto no final do site no rodapé */
+#repository-link {
+    color: #665e86;
+    background-color: #0e0c14;
+    font-family: Verdana;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Estilização do link texto no final do site no rodapé */
+#repository-link a {
+    color: #aaa235;
+}
+
+/* Estilização do link texto no final do site no rodapé ao passar o mouse */
+#repository-link:hover a {
+    color: #00be3c;
+}

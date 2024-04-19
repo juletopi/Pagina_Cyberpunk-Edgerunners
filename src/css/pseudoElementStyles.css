@@ -1,0 +1,18 @@
+/* Estilos da barra de rolagem */
+::-webkit-scrollbar {
+    background-color: #191625;
+    width: 10px;
+	height: 8px;
+}
+
+/* Estilos do indicador da barra de rolagem */
+::-webkit-scrollbar-thumb {
+    background-color: #dacf3f;
+    border-radius: 8px;
+}
+
+/* Estilos da seleção de texto */
+::selection {
+    background-color: #d8db163f;
+    color: #fff;
+}
