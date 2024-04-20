@@ -506,7 +506,7 @@ table td a:hover {
 #netiflix-cyberpunk-logo {
     width: 100%;
     height: auto;
-    max-width: 500px;
+    max-width: 460px;
     margin-left: 50px;
 }
 
@@ -595,6 +595,7 @@ table td a:hover {
 
 /* Estilização do link do parágrafo de "onde assistir" na seção sobre onde assistir o anime */
 #where-to-watch-link {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.651);
     color: #dacf3f;
     font-family: "Refinery25-Regular";
     font-size: 23px;
@@ -624,7 +625,7 @@ table td a:hover {
 
 /* Estilização específica do texto 2 nos vídeos-trailer na seção sobre onde assistir o anime */
 .trailer-container #video-text2 {
-    margin-left: 215px;
+    margin-left: 260px;
 }
 
 /* Estilização específica dos iframe 1 e 2 do vídeo-trailer na seção sobre onde assistir o anime */
@@ -632,6 +633,8 @@ table td a:hover {
 .trailer-iframe2 {
     background-color: #0e0c14;
     display: inline-block;
+    width: 500px;
+    height: 280px;
 }
 
 /* Estilização específica do iframe 2 do vídeo-trailer na seção sobre onde assistir o anime */

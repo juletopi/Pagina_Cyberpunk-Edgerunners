@@ -41,8 +41,8 @@
 
     .music1 p, .music2 p {
         font-size: 20px;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 0px;
+        margin-right: 20px;
     }
 
     .table-wrapper {
@@ -87,6 +87,7 @@
 
     .about-game p {
         font-size: 20px;
+        margin-right: 20px;
     }
 
     .about-game #title2 {
@@ -140,7 +141,11 @@
     }
 
     #netiflix-cyberpunk-logo {
-        max-width: 450px;
+        max-width: 350px;
+    }
+
+    .score-icons #rotten-tomatoes-critics-icon {
+        margin-left: 85px;
     }
 
     #where-to-watch-text {
@@ -159,7 +164,9 @@
 
     .iframe-container .trailer-iframe1 {
         margin-right: 30px;
-        margin-top: 30px;
+        margin-top: 50px;
+        width: 500px;
+        height: 280px;
     }
 
     .video-text-container #video-text2 {
@@ -169,6 +176,8 @@
     .iframe-container .trailer-iframe2 {
         margin-right: 30px;
         margin-top: 20px;
+        width: 500px;
+        height: 280px;
     }
 
     .personal-social-icons svg {
@@ -267,23 +276,27 @@
     .music1 img, .music2 img {
         order: -1;
         margin-top: -10px;
+        margin-left: 0px;
     }
 
     .music1 h2, .music2 h2 {
         order: 0;
         font-size: 30px;
         margin-top: 10px;
+        margin-left: 0px;
     }
 
     .music1 sub, .music2 sub {
         order: 1;
         margin-top: 0px;
+        margin-left: 0px;
     }
 
     .button-container {
         order: 2;
         margin-top: 20px;
         margin-bottom: -30px;
+        padding-left: 0px;
         display: flex;
         flex-direction: column;
     }
@@ -292,6 +305,7 @@
         order: 3;
         margin-top: 20px; 
         padding-left: 0;
+        margin-left: 0px;
         align-items: center;
         display: flex;
         justify-content: center;
@@ -307,6 +321,7 @@
 
     .music1 cite, .music2 cite {
         order: 5;
+        padding-left: 0;
     }
 
     .table-wrapper {
@@ -431,7 +446,11 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        margin-bottom: 0px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 60px;
     }
 
     #netiflix-cyberpunk-logo {
@@ -452,12 +471,33 @@
         font-size: 14px;
     }
 
+    .score-icons {
+        order: 1;
+        align-items: center;
+    }
+
     .score-icons #rotten-tomatoes-critics-icon {
+        margin-left: 35px;
+        width: 5%;
+    }
+
+    .score-icons #rotten-tomatoes-audience-icon {
+        margin-left: 50px;
+        width: 4%;
+    }
+
+    .score-icons #imdb-icon {
         margin-left: 70px;
+        width: 5%;
     }
     
+    .score-text {
+        order: 2;
+        justify-content: center;
+    }
+
     .score-text #rotten-tomatoes-critics-score {
-    margin-left: 45px;
+        margin-left: 0px;
     }
 
     .score-text #rotten-tomatoes-audience-score {
@@ -469,14 +509,14 @@
     }
 
     #where-to-watch-text {
-        order: 1;
+        order: 3;
         font-size: 21px;
         margin-right: 0px;
         margin-left: -30px;
     }
     
     #where-to-watch-link {
-        order: 2;
+        order: 4;
         font-size: 19px;
         margin-top: -25px;
         margin-left: -30px;
@@ -487,11 +527,12 @@
     }
 
     .iframe-container .trailer-iframe1 {
-        order: 4;
+        order: 5;
         margin-left: -30px;
+        margin-right: 0px;
         margin-top: 30px;
-        width: 300px;
-        height: 170px;
+        width: 400px;
+        height: 225px;
     }
 
     .video-text-container #video-text2 {
@@ -499,11 +540,12 @@
     }
 
     .iframe-container .trailer-iframe2 {
-        order: 5;
+        order: 6;
         margin-left: -30px;
+        margin-right: 0px;
         margin-top: 20px;
-        width: 300px;
-        height: 170px;
+        width: 400px;
+        height: 225px;
     }
 
     .footer p {
