@@ -1,4 +1,4 @@
-![Laptop-1-1440x900](https://github.com/juletopi/Projeto_Pagina_Cyberpunk-Edgerunners/assets/76459155/6cd2e741-eac2-4038-a3fe-943731814636)![iPhone-XS-X-515x4631](https://github.com/juletopi/Projeto_Pagina_Cyberpunk-Edgerunners/assets/76459155/b15d1c21-5a4a-4d74-9eed-26c3ac6c18cf)![Laptop-1-1440x900](https://github.com/juletopi/Projeto_Pagina_Cyberpunk-Edgerunners/assets/76459155/c2a4ec9b-2689-4360-b825-2b0ddf6c369c)<!--
+<!--
 ❗ ➤ References used in this Repository:
 🔗 • https://github.com/kyechan99/capsule-render
 🔗 • https://github.com/DenverCoder1/custom-icon-badges
