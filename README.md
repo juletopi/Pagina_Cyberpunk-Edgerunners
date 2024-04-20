@@ -109,7 +109,7 @@ A página inclui as seguintes principais funcionalidades:
 
 ## 🏗️ Estrutura do Projeto
 
-O projeto segue uma estrutura extensa, composta por arquivos HTML, CSS, JavaScript, fontes, imagens e SVGs. 
+O projeto segue uma estrutura extensa, composta por arquivos HTML, CSS, JavaScript, fontes e imagens. 
 
 Abaixo está a organização dos arquivos:
 
