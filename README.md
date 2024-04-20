@@ -1,4 +1,4 @@
-<!--
+![Laptop-1-1440x900](https://github.com/juletopi/Projeto_Pagina_Cyberpunk-Edgerunners/assets/76459155/6cd2e741-eac2-4038-a3fe-943731814636)![iPhone-XS-X-515x4631](https://github.com/juletopi/Projeto_Pagina_Cyberpunk-Edgerunners/assets/76459155/b15d1c21-5a4a-4d74-9eed-26c3ac6c18cf)![Laptop-1-1440x900](https://github.com/juletopi/Projeto_Pagina_Cyberpunk-Edgerunners/assets/76459155/c2a4ec9b-2689-4360-b825-2b0ddf6c369c)<!--
 ❗ ➤ References used in this Repository:
 🔗 • https://github.com/kyechan99/capsule-render
 🔗 • https://github.com/DenverCoder1/custom-icon-badges
@@ -61,7 +61,110 @@
 <a href="https://github.com/juletopi/Projeto_Pagina_Cyberpunk-Edgerunners/discussions">Request Feature</a>
 </div>
 
-<br>
+<!-- ABOUT THE PAGE -->
+
+## 🖼️ Imagens da página
+
+> ### Modo de tela para dispositivos Desktop 💻
+> <a href=""><img src="https://github.com/juletopi/Projeto_Pagina_Cyberpunk-Edgerunners/assets/76459155/16a03b58-66c3-425c-aabf-11e1c9b3efb1" alt="WebPageDesktopView" title="Visualização da página no modo Desktop" style="width: 80%;"></a>
+> ### Modo de tela para Smartphones 📱
+> <a href=""><img src="https://github.com/juletopi/Projeto_Pagina_Cyberpunk-Edgerunners/assets/76459155/b31a0990-8123-457c-886b-c312761fbad1" alt="WebPageMobileView" title="Visualização da página responsiva no modo Smartphone" style="width: 40%;"></a>
+
+## 📝 Descrição do Projeto
+
+A página foi inicialmente criada como parte da primeira avaliação para a disciplina de [Tópicos Especiais em Tecnologia](https://github.com/juletopi/Topicos_Especiais_em_Tecnologia). 
+
+No entanto, continuei trabalhando nela como um projeto pessoal de onde havia parado anteriormente, expandindo-a e adicionando mais conteúdo à página, além de fazer experimentos com JavaScript.
+
+A página tem como foco representar o anime Cyberpunk Edgerunners, produzido pelo estúdio de animação japonês Studio Trigger e inspirado no jogo Cyberpunk 2077, da desenvolvedora polonesa CD Projekt Red. A página aborda diversos aspectos do anime como Trilha Sonora, Personagens, Sobre o Jogo e Onde Assistir o anime.
+
+## ⚙️ Funcionalidades
+
+A página inclui as seguintes principais funcionalidades:
+
+- Seções dedicadas para a trilha sonora, personagens, sobre o jogo e onde assistir o anime.
+- Vídeos embed do youtube ativadas por uma modal na seção da Trilha Sonora.
+- Botão de "voltar ao topo" que faz o usuário voltar ao topo da página de forma suave.
+- Responsividade para diferentes tamanhos de tela.
+
+<div align="left">
+  <h6><a href="#página-cyberpunk-edgerunners-%EF%B8%8F"> Voltar para o início ↺</a></h6>
+</div>
+
+<div align="center">
+  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=dacf3f&height=3&section=header&%20render">
+</div>
+
+## 👩‍💻 Tecnologias Utilizadas
+
+<a href="https://www.w3schools.com/html/">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML-badge" width="97px">
+</a>
+  <a href="https://www.w3schools.com/css/">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"alt="CSS-badge" width="84px">
+</a>
+<a href="https://www.w3schools.com/js/">
+  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="HTML-badge" width="140px">
+</a>
+
+## 🏗️ Estrutura do Projeto
+
+O projeto segue uma estrutura extensa, composta por arquivos HTML, CSS, JavaScript, fontes, imagens e SVGs. 
+
+Abaixo está a organização dos arquivos:
+
+```
+|-- src
+|   |-- css
+|   |   |-- animation.css
+|   |   |-- fonts.css
+|   |   |-- modalVideo.css
+|   |   |-- pseudoElementStyles.css
+|   |   |-- reset.css
+|   |   |-- responsive.css
+|   |   |-- style.css
+|   |-- fonts
+|   |   |-- Cyberpunk-Regular.ttf
+|   |   |-- Refinery25-Regular.ttf
+|   |-- images
+|   |   |-- AdamSmasher.jpeg
+|   |   |-- classificacaoIndicativa16.png
+|   |   |-- cyberpunk2077ArtCover.jpg
+|   |   |-- CyberpunkEdgerunnersLogoImage.png
+|   |   |-- DavidMartinez.jpeg
+|   |   |-- DavidSandevistanBackgroundImage.png
+|   |   |-- Dorio.jpeg
+|   |   |-- edgeRunnersLogo.png
+|   |   |-- Falco.jpeg
+|   |   |-- Faraday.jpeg
+|   |   |-- GloriaMartinez.jpeg
+|   |   |-- IMDbLogo.png
+|   |   |-- Julio.jpeg
+|   |   |-- Kiwi.jpeg
+|   |   |-- Lucy.jpeg
+|   |   |-- mainBackgroundImage.png
+|   |   |-- Maine.jpeg
+|   |   |-- music1Image.jpeg
+|   |   |-- music2Image.jpeg
+|   |   |-- netflixCyberpunkEdgerunnersLogo.png
+|   |   |-- Pilar.jpeg
+|   |   |-- platformPCSVG.svg
+|   |   |-- platformPS4SVG.svg
+|   |   |-- platformPS5SVG.svg
+|   |   |-- platformXboxOneSVG.svg
+|   |   |-- platformXboxSeriesSXSSVG.svg
+|   |   |-- Rebecca.jpeg
+|   |   |-- rottenTomatoesFreshCriticsScore.png
+|   |   |-- rottenTomatoesPositiveAudienceScore.png
+|   |   |-- yellowCyberpunkIcon.ico
+|   |   |-- yellowCyberpunkImage.png
+|   |-- js
+|   |   |-- script.js
+|-- index.html
+```
+<div align="left">
+  <h6><a href="#página-cyberpunk-edgerunners-%EF%B8%8F"> Voltar para o início ↺</a></h6>
+</div>
 
 <div align="center">
   <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=dacf3f&height=3&section=header&%20render">
@@ -104,7 +207,7 @@
 </table>
 
 <div align="left">
-  <h6><a href="#página-cyberpunk-edgerunners-"> Voltar para o início ↺</a></h6>
+  <h6><a href="#página-cyberpunk-edgerunners-%EF%B8%8F"> Voltar para o início ↺</a></h6>
 </div>
 
 <br>
