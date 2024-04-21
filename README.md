@@ -72,7 +72,7 @@
 
 ## 📝 Descrição do Projeto
 
-A página foi inicialmente criada como parte da primeira avaliação para a disciplina de [Tópicos Especiais em Tecnologia](https://github.com/juletopi/Topicos_Especiais_em_Tecnologia). 
+A página foi inicialmente criada como parte da primeira avaliação para a disciplina de [Tópicos Especiais em Tecnologia](https://github.com/juletopi/Topicos_Especiais_em_Tecnologia) e utilizando apenas HTML e CSS. Clique [aqui](https://github.com/juletopi/Topicos_Especiais_em_Tecnologia?tab=readme-ov-file#avalia%C3%A7%C3%A3o-01---html-e-css) para ir ao repositório com o código original.
 
 No entanto, continuei trabalhando nela como um projeto pessoal de onde havia parado anteriormente, expandindo-a e adicionando mais conteúdo à página, além de fazer experimentos com JavaScript.
 
