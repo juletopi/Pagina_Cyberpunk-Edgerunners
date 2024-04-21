@@ -78,6 +78,10 @@ No entanto, continuei trabalhando nela como um projeto pessoal de onde havia par
 
 A página tem como foco representar o anime Cyberpunk Edgerunners, produzido pelo estúdio de animação japonês Studio Trigger e inspirado no jogo Cyberpunk 2077, da desenvolvedora polonesa CD Projekt Red. A página aborda diversos aspectos do anime como Trilha Sonora, Personagens, Sobre o Jogo e Onde Assistir o anime.
 
+<div align="left">
+  <h6><a href="#página-cyberpunk-edgerunners-%EF%B8%8F"> Voltar para o início ↺</a></h6>
+</div>
+
 ## ⚙️ Funcionalidades
 
 A página inclui as seguintes principais funcionalidades:
@@ -91,10 +95,6 @@ A página inclui as seguintes principais funcionalidades:
   <h6><a href="#página-cyberpunk-edgerunners-%EF%B8%8F"> Voltar para o início ↺</a></h6>
 </div>
 
-<div align="center">
-  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=dacf3f&height=3&section=header&%20render">
-</div>
-
 ## 👩‍💻 Tecnologias Utilizadas
 
 <a href="https://www.w3schools.com/html/">
@@ -106,6 +106,10 @@ A página inclui as seguintes principais funcionalidades:
 <a href="https://www.w3schools.com/js/">
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="HTML-badge" width="140px">
 </a>
+
+<div align="left">
+  <h6><a href="#página-cyberpunk-edgerunners-%EF%B8%8F"> Voltar para o início ↺</a></h6>
+</div>
 
 ## 🏗️ Estrutura do Projeto
 
@@ -164,10 +168,6 @@ Abaixo está a organização dos arquivos:
 ```
 <div align="left">
   <h6><a href="#página-cyberpunk-edgerunners-%EF%B8%8F"> Voltar para o início ↺</a></h6>
-</div>
-
-<div align="center">
-  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=dacf3f&height=3&section=header&%20render">
 </div>
 
 <!-- AUTHOR -->
