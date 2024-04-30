@@ -56,9 +56,9 @@
 <br>
 
 <div align="center">
-<a href="https://juletopi.github.io/Projeto_Pagina_Cyberpunk-Edgerunners/">View Demo</a> &#xa0; • &#xa0;
-<a href="https://github.com/juletopi/Projeto_Pagina_Cyberpunk-Edgerunners/issues">Report Bug</a> &#xa0; • &#xa0;
-<a href="https://github.com/juletopi/Projeto_Pagina_Cyberpunk-Edgerunners/discussions">Request Feature</a>
+<a href="https://github.com/juletopi/Projeto_Pagina_Cyberpunk-Edgerunners/blob/main/CONTRIBUTING.md">Como contribuir</a> &#xa0; • &#xa0;
+<a href="https://github.com/juletopi/Projeto_Pagina_Cyberpunk-Edgerunners/issues">Issues</a> &#xa0; • &#xa0;
+<a href="https://github.com/juletopi/Projeto_Pagina_Cyberpunk-Edgerunners/discussions">Discussions</a>
 </div>
 
 <!-- ABOUT THE PAGE -->
