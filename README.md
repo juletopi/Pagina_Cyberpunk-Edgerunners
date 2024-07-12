@@ -24,8 +24,7 @@
 
 <div align="center">
 
-  <a href="https://juletopi.github.io/Projeto_Pagina_Cyberpunk-Edgerunners/">**Visualize a página web clicando aqui »**</a> \
-    <sub>**"Use `ctrl + click` para abri-la numa nova janela!"**</sub>
+  <a href="https://juletopi.github.io/Projeto_Pagina_Cyberpunk-Edgerunners/" target="_blank">**« Visualize a página web clicando aqui »**</a>
 </div>
 
 <div align="center">
