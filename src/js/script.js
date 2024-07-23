@@ -1,6 +1,31 @@
 // Span com atualização automática do ano para o rodapé
 document.getElementById('current-year').textContent = new Date().getFullYear();
 
+// Span que esconde e mostra a navbar conforme o usuário rola a página para baixo ou para cima
+document.addEventListener('DOMContentLoaded', () => {
+    let lastScrollTop = 0;
+    const navbar = document.querySelector('.navbar');
+    const hideThreshold = 50;
+
+    window.addEventListener('scroll', () => {
+        const currentScroll = window.pageYOffset;
+
+        if (window.innerWidth > 768) { // Ajuste o valor conforme necessário
+            if (currentScroll > lastScrollTop && currentScroll > 10) {
+                // Rolagem para baixo
+                navbar.classList.add('hide');
+                navbar.classList.remove('show');
+            } else {
+                // Rolagem para cima
+                navbar.classList.add('show');
+                navbar.classList.remove('hide');
+            }
+
+            lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+        }
+    });
+});
+
 // Seleciona os botões da modal dos vídeos embed do Youtube
 const openModalButton1 = document.getElementById("openModalButton1");
 const openModalButton2 = document.getElementById("openModalButton2");

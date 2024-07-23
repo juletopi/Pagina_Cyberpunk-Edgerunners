@@ -1,8 +1,13 @@
 /* Tablets */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .navbar {
+        display: none;
+    }
+
     .header-title img {
         max-width: 440px;
         margin-bottom: -30px;
+        margin-top: -80px;
     }
 
     .header-title hr {
@@ -209,9 +214,14 @@
 
 /* Smartphones */
 @media screen and (max-width: 767px) {
+    .navbar {
+        display: none;
+    }
+
     .header-title img {
         max-width: 320px;
         margin-bottom: -40px;
+        margin-top: -100px;
     }
 
     .header-title hr {
@@ -561,6 +571,7 @@
         padding-top: 10px;
         padding-bottom: 5px;
     }
+    
     .personal-social-icons svg {
         max-width: 22px;
     }

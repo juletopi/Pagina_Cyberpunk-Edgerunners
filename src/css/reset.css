@@ -14,3 +14,8 @@ ul {
 a {
 	text-decoration: none;
 }
+
+/* Adiciona um scroll suave */
+html {
+    scroll-behavior: smooth;
+}

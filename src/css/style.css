@@ -20,14 +20,101 @@ body {
     z-index: -1;
 }
 
-/* Estilização do título da página */
+/* Estilização da barra de navegação */
+.navbar {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: #dacf3f;
+    background-color: #191625d3;
+    box-shadow: 0 10px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+/* Estilização para esconder a navbar */
+.navbar.hide {
+    transform: translateY(-100%);
+}
+
+/* Estilização para a barra de navegação com animação */
+.navbar.show {
+    transform: translateY(0);
+}
+
+/* Estilização do logotipo na barra de navegação */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilização da imagem do logotipo na barra de navegação */
+.logo img {
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+/* Estilização geral dos links de navegação */
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    font-size: 23px;
+    position: relative;
+}
+
+/* Estilização dos itens da lista de links de navegação */
+.nav-links li {
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* Estilização específica dos links de navegação */
+.nav-links a {
+    color: #dacf3f;
+    padding-inline: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    position: relative;
+}
+
+/* Estilização do sublinhado dos links de navegação */
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #d3c831;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+/* Estilização do sublinhado dos links de navegação ao passar o mouse */
+.nav-links a:hover::after,
+.nav-links a:focus::after {
+    transform: scaleX(1);
+    transform-origin: center;
+}
+
+/* Estilização da imagem no título da página */
 .header-title img {
     width: 100%;
     height: auto;
     max-width: 550px;
     display: block;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 160px;
     margin-bottom: -20px;
     text-align: center;
     line-height: 1.0;
