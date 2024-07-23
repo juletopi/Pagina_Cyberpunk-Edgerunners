@@ -10,8 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('scroll', () => {
         const currentScroll = window.pageYOffset;
 
-        if (window.innerWidth > 768) { // Ajuste o valor conforme necessário
-            if (currentScroll > lastScrollTop && currentScroll > 10) {
+        if (Math.abs(currentScroll - lastScrollTop) > hideThreshold) {
+            if (currentScroll > lastScrollTop) {
                 // Rolagem para baixo
                 navbar.classList.add('hide');
                 navbar.classList.remove('show');
