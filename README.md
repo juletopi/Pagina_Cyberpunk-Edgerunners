@@ -66,7 +66,7 @@
 ## 🖼️ Imagens da página
 
 > ### Modo de tela para dispositivos Desktop 💻
-> <a href=""><img src="https://github.com/juletopi/Projeto_Pagina_Cyberpunk-Edgerunners/assets/76459155/16a03b58-66c3-425c-aabf-11e1c9b3efb1" alt="WebPageDesktopView" title="Visualização da página no modo Desktop" style="width: 80%;"></a>
+> <a href=""><img src="https://github.com/user-attachments/assets/acf5bb35-e1d6-46e1-a9ac-21331a197e31" alt="WebPageDesktopView" title="Visualização da página no modo Desktop" style="width: 80%;"></a>
 > ### Modo de tela para Smartphones 📱
 > <a href=""><img src="https://github.com/juletopi/Projeto_Pagina_Cyberpunk-Edgerunners/assets/76459155/b31a0990-8123-457c-886b-c312761fbad1" alt="WebPageMobileView" title="Visualização da página responsiva no modo Smartphone" style="width: 40%;"></a>
 
