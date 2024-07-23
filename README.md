@@ -86,6 +86,7 @@ A página tem como foco representar o anime Cyberpunk Edgerunners, produzido pel
 
 A página inclui as seguintes principais funcionalidades:
 
+- Barra de navegação dinâmica no canto superior que "se esconde e aparece" conforme o usuário navega pela página.
 - Seções dedicadas para a trilha sonora, personagens, sobre o jogo e onde assistir o anime.
 - Vídeos embed do youtube ativadas por uma modal na seção da Trilha Sonora.
 - Botão de "voltar ao topo" que faz o usuário voltar ao topo da página de forma suave.
