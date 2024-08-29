@@ -171,6 +171,26 @@ Abaixo está a organização dos arquivos:
   <h6><a href="#página-cyberpunk-edgerunners-%EF%B8%8F"> Voltar para o início ↺</a></h6>
 </div>
 
+<!-- CONTRIBUTIONS -->
+
+## 🤝 Contribuições
+
+<p>Todas as contribuições ao projeto são bem vindas!<br>Se você deseja contribuir para este projeto, há várias maneiras de fazer isso. Você pode:</p>
+<ul>
+  <li>Reportar bugs ou problemas;</li>
+  <li>Propor novos recursos ou melhorias;</li>
+  <li>Corrigir problemas através de pull requests;</li>
+  <li>Ajudar a melhorar a documentação;</li>
+  <li>Compartilhar o projeto com outras pessoas.</li>
+</ul>
+<p>Para saber mais sobre como contribuir, consulte o guia de contribuição <a href="https://github.com/juletopi/Projeto_Pagina_Cyberpunk-Edgerunners/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a>.</p>
+
+<div align="left">
+  <h6><a href="#página-cyberpunk-edgerunners-%EF%B8%8F"> Voltar para o início ↺</a></h6>
+</div>
+
+<br>
+
 <!-- AUTHOR -->
 
 ## 👤 Autor
