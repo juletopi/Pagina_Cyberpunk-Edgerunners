@@ -1,28 +1,56 @@
 // Span com atualização automática do ano para o rodapé
 document.getElementById('current-year').textContent = new Date().getFullYear();
 
-// Span que esconde e mostra a navbar conforme o usuário rola a página para baixo ou para cima
 document.addEventListener('DOMContentLoaded', () => {
     let lastScrollTop = 0;
     const navbar = document.querySelector('.navbar');
+    const progressBar = document.querySelector('.progress-bar');
     const hideThreshold = 50;
+    let isUpdating = false;
 
+    // Função para atualizar a barra de progresso
+    const updateProgressBar = () => {
+        const scrollTop = window.pageYOffset;
+        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const scrollPercentage = (scrollTop / docHeight) * 100;
+        progressBar.style.width = `${scrollPercentage}%`;
+    };
+
+    // Função para atualizar a barra de progresso (com requestAnimationFrame)
+    const onScroll = () => {
+        if (!isUpdating) {
+            window.requestAnimationFrame(() => {
+                updateProgressBar();
+                isUpdating = false;
+            });
+            isUpdating = true;
+        }
+    };
+
+    // Evento de rolagem para esconder/mostrar a navbar e atualizar a barra de progresso
     window.addEventListener('scroll', () => {
         const currentScroll = window.pageYOffset;
 
+        // Controle da exibição da navbar (subir/descer)
         if (Math.abs(currentScroll - lastScrollTop) > hideThreshold) {
             if (currentScroll > lastScrollTop) {
-                // Rolagem para baixo
+                // Rolagem para baixo: esconder navbar e barra de progresso
                 navbar.classList.add('hide');
                 navbar.classList.remove('show');
+                progressBar.classList.add('hide');
             } else {
-                // Rolagem para cima
+                // Rolagem para cima: mostrar navbar e barra de progresso
                 navbar.classList.add('show');
                 navbar.classList.remove('hide');
+                progressBar.classList.add('show');
+                progressBar.classList.remove('hide');
             }
 
             lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
         }
+
+        // Atualiza a barra de progresso
+        onScroll();
     });
 });
 
@@ -69,10 +97,8 @@ const backToTopButton = document.getElementById('back-to-top');
 window.addEventListener('scroll', () => {
     // Verifica se o usuário rolou mais de 100 pixels para baixo
     if (window.scrollY > 100) {
-        // Se sim, adiciona a classe "visible" ao botão
         backToTopButton.classList.add('visible');
     } else {
-        // Se não, remove a classe "visible" do botão
         backToTopButton.classList.remove('visible');
     }
 });

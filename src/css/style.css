@@ -107,6 +107,23 @@ body {
     transform-origin: center;
 }
 
+/* Estilização da barra de progresso */
+.progress-bar {
+    position: fixed;
+    top: 90px;
+    left: 0;
+    height: 4px;
+    background-color: #d3c831;
+    width: 0%;
+    z-index: 999;
+    transition: width 0.1s ease-in-out, top 0.2s ease-in-out;
+}
+
+/* Quando a navbar é escondida... */
+.navbar.hide + .progress-bar {
+    top: 0;
+}
+
 /* Estilização da imagem no título da página */
 .header-title img {
     width: 100%;

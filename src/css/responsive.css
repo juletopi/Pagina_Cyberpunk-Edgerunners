@@ -4,6 +4,12 @@
         display: none;
     }
 
+    .progress-bar {
+        transition: none;
+        width: 100%;
+        top: 0;
+    }
+
     .header-title img {
         max-width: 440px;
         margin-bottom: -30px;
@@ -216,6 +222,12 @@
 @media screen and (max-width: 767px) {
     .navbar {
         display: none;
+    }
+
+    .progress-bar {
+        transition: none;
+        width: 100%;
+        top: 0;
     }
 
     .header-title img {
