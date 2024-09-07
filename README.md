@@ -113,65 +113,6 @@ A página inclui as seguintes principais funcionalidades:
   <h6><a href="#página-cyberpunk-edgerunners-%EF%B8%8F"> Voltar para o início ↺</a></h6>
 </div>
 
-## 🏗️ Estrutura do Projeto
-
-O projeto segue uma estrutura extensa, composta por arquivos HTML, CSS, JavaScript, fontes e imagens. 
-
-Abaixo está a organização dos arquivos:
-
-```
-|-- src
-|   |-- css
-|   |   |-- animation.css
-|   |   |-- fonts.css
-|   |   |-- modalVideo.css
-|   |   |-- pseudoElementStyles.css
-|   |   |-- reset.css
-|   |   |-- responsive.css
-|   |   |-- style.css
-|   |-- fonts
-|   |   |-- Cyberpunk-Regular.ttf
-|   |   |-- Refinery25-Regular.ttf
-|   |-- images
-|   |   |-- AdamSmasher.jpeg
-|   |   |-- classificacaoIndicativa16.png
-|   |   |-- cyberpunk2077ArtCover.jpg
-|   |   |-- CyberpunkEdgerunnersLogoImage.png
-|   |   |-- DavidMartinez.jpeg
-|   |   |-- DavidSandevistanBackgroundImage.png
-|   |   |-- Dorio.jpeg
-|   |   |-- edgeRunnersLogo.png
-|   |   |-- Falco.jpeg
-|   |   |-- Faraday.jpeg
-|   |   |-- GloriaMartinez.jpeg
-|   |   |-- IMDbLogo.png
-|   |   |-- Julio.jpeg
-|   |   |-- Kiwi.jpeg
-|   |   |-- Lucy.jpeg
-|   |   |-- mainBackgroundImage.png
-|   |   |-- Maine.jpeg
-|   |   |-- music1Image.jpeg
-|   |   |-- music2Image.jpeg
-|   |   |-- netflixCyberpunkEdgerunnersLogo.png
-|   |   |-- Pilar.jpeg
-|   |   |-- platformPCSVG.svg
-|   |   |-- platformPS4SVG.svg
-|   |   |-- platformPS5SVG.svg
-|   |   |-- platformXboxOneSVG.svg
-|   |   |-- platformXboxSeriesSXSSVG.svg
-|   |   |-- Rebecca.jpeg
-|   |   |-- rottenTomatoesFreshCriticsScore.png
-|   |   |-- rottenTomatoesPositiveAudienceScore.png
-|   |   |-- yellowCyberpunkIcon.ico
-|   |   |-- yellowCyberpunkImage.png
-|   |-- js
-|   |   |-- script.js
-|-- index.html
-```
-<div align="left">
-  <h6><a href="#página-cyberpunk-edgerunners-%EF%B8%8F"> Voltar para o início ↺</a></h6>
-</div>
-
 <!-- CONTRIBUTIONS -->
 
 ## 🤝 Contribuições
