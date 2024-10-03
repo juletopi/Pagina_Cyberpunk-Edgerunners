@@ -18,7 +18,7 @@ Antes de continuar, certifique-se de que o bug que você encontrou ainda não fo
 
 - Se um bug já estiver sido mencionado nas <a href="https://github.com/juletopi/Projeto_Pagina_Cyberpunk-Edgerunners/issues">issues</a> e você deseja corrigi-lo, faça um fork do repositório e envie sua implementação com o bug corrigido em um pull request.
 - Se um bug NÃO estiver mencionado nas <a href="https://github.com/juletopi/Projeto_Pagina_Cyberpunk-Edgerunners/issues">issues</a>, abra uma nova issue. Certifique-se de incluir um título, uma descrição clara e um caso de teste demonstrando o comportamento esperado que não está ocorrendo. Caso você mesmo deseja corrigir este bug, faça um fork do repositório e envie sua implementação com o bug corrigido em um pull request.
-> [!NOTE]\
+> [!TIP]\
 > *Evite abrir issues pedindo para ser ativamente "atribuído" a uma parte específica do código. Em vez disso, apenas envie sua implementação em um pull request e suas modificações serão avaliadas para aprovação.*
 
 ## Deseja contribuir com a documentação?
@@ -29,7 +29,7 @@ Caso tenha achado erros graves na documentação ou deseja traduzi-la para uma l
 - Crie um pull request.
 - Ele será revisado para aprovação.
 - Se aprovado, as alterações solicitadas serão mescladas ao repositório.
-> [!NOTE]\
+> [!TIP]\
 > *Em caso de tradução, nomeie o arquivo da seguinte maneira: `README-[sigla da língua (tudo em maiúsculo)].md`* <br>
 > *Por exemplo: `README-ENG.md`, `README-ESP.md`, `README-PT.md`*
 
