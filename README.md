@@ -87,11 +87,11 @@ A página tem como foco representar o anime Cyberpunk Edgerunners, produzido pel
 A página inclui as seguintes principais funcionalidades:
 
 - Barra de navegação dinâmica no canto superior que "se esconde e aparece" conforme o usuário navega pela página. Disponível apenas para dispositivos desktop.
-- Barra de progresso horizontal logo abaixo da barra de navegação que mede o progresso de navegação do usuário pela página. Disponível para dispositivos desktop, tablet e smartphone.
+- Barra de progresso horizontal logo abaixo da barra de navegação que mede o progresso de navegação do usuário pela página. Disponível para dispositivos desktop e mobile.
 - Seções dedicadas para a trilha sonora, personagens, sobre o jogo e onde assistir o anime.
 - Vídeos embed do youtube ativadas por uma modal na seção da Trilha Sonora.
 - Botão de "voltar ao topo" que faz o usuário voltar ao topo da página de forma suave. Disponível apenas para dispositivos desktop.
-- Responsividade para diferentes tamanhos de tela.
+- Responsividade para diferentes tamanhos e modos de tela: Desktop, Smartphone e Tablet.
 
 <div align="left">
   <h6><a href="#página-cyberpunk-edgerunners-%EF%B8%8F"> Voltar para o início ↺</a></h6>
